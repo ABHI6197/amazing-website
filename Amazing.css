@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    grid-template-columns: auto;    
+   
+}
+
+.card-container-one{
+    width: 100%;  
+    border-color: black; 
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.amazing-logo{
+    height: 50px;
+    width: 50px;    
+}
+
+ul{
+    list-style: none;
+    background: white;    
+    width: 100vw;      
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    padding-right: block;   
+}
+
+ul li a {
+    display: block;    
+    color: #fff;
+    text-decoration: none;    
+    text-align: center;        
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #989992;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    background: lightgray;    
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+.card-container-two{
+    width: 100%;
+    height: auto;  
+    background-color: lightgray;
+}
+
+.slide-imgs{
+    width: 100%;
+    height:500px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-template-rows: 1fr;   
+    text-align: center;
+    width: 100%;
+}
+
+.item{
+    background-color: transparent;
+    padding-top: 10px;
+
+}
+
+.fashion-types-imgs-grid{
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.container-items-para{
+    font-weight: bold;    
+}
+
+.backtotop-btn{
+    padding: 5px;
+    font-size: 20px;    
+
+}
+
+.footer-cotainer{
+    background-color: #232f3e;
+    color: #fff;
+}
+
+.footer-heading{
+    font-size: 22px;    
+
+}
+
+.footer-para{
+    font-size: 12px;    
+    color: wheat;
+}
+
+.slide-item-imgs{
+    height: 200px;
+    width: 250px;
+}
+
+.four-containers{    
+   p{
+    font-weight: bold;
+   }
+   border-radius: 10px;
+}
+
+.four-containers-imgs{
+    height: 140px;
+    width: 150px;
+}
+
+.personalised-container{
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 12px;
+    }        
+}
+
+.personalised-signin{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(253, 239, 42);
+    border-radius: 25px;
+    border-style: none;
+}
+
+.footer-cotainer-two{
+    background-color: #131A22;
+    color: #fff;
+    text-align: center;
+    p{
+        font-size: 12px;
+    }
+}
+
+.footer-cotainer-two-head{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #fff;
+}
